@@ -130,7 +130,15 @@ footer{
     padding: 5px 55px;
 }
 #cuatroAses{
-    background-color: white;
-    width: 100%;
+    background-color: #F1F1F1;
+    width: 80%;
+    margin:auto;
+    display: flex;
     color:black;
+}
+#cuatroAses > div{
+    display: flex;
+}
+.colorGrey{
+    background-color: #F1F1F1;
 }

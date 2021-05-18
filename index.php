@@ -260,28 +260,36 @@
           ?>
         </div>
 
-        <footer>
-
+        <div class="colorGrey">
         <div id="cuatroAses">
               <div>
-              AHORRA UN 80%</div>
-              <img src="./imagenes/cerditoAhorrador.png">
-              
+
+                <div><img src="./imagenes/cerditoAhorrador.png"></div>
+                <div>AHORRA UN 80% en tus facturas con TerbolToner</div>
+                
+              </div>
               <div>
-              ENVÍO GRATIS
-              <img src="./imagenes/camion.png">
+
+              <div><img src="./imagenes/camion.png"></div>
+                <div>ENVÍO GRATIS desde 69€</div>
               
               </div>
               <div>
-              PAGOS SEGUROS
-              <img src="./imagenes/tienda.png">
+
+              <div><img src="./imagenes/tienda.png"></div>
+               <div>PAGOS SEGUROS Contrareembolso, Tarjeta de Crédito, Paypal, Transferencia</div>
+                
               </div>
               <div>
-              RECOGER EN TIENDA
-              <img src="./imagenes/pagoSeguro.png">
+
+                <div><img src="./imagenes/pagoSeguro.png"></div>
+                <div>RECOGER EN TIENDA También puedes pasarte a recoger tu pedido</div>
+              
               </div>
         </div>
+        </div>
 
+        <footer>
         <div class="enlacesFooter">
           <a href="#">Cartuchos y Toners </a> / <a href="#"> Informática </a> / <a href="#">Papelería </a> / <a href="#">Iluminación LED </a> / <a href="#"> Especial Higiene </a>
         </div>
