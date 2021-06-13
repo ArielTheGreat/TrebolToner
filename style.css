@@ -1,44 +1,144 @@
-
-
+#cajaDeBusqueda{
+    width:80%;
+    margin: 5px auto;
+    vertical-align: middle;
+}
+.busqueda{
+    width: 90%;
+    height: 3rem;
+}
+.registroDividido{
+    display:flex;
+    width:50rem;
+}
+.dropdown-menu{
+    padding:20px;
+}
+.input{
+    width:45%;
+}
+.navbar-nav{
+    margin:0 auto;
+}
 .amarillo{
-    color:#f0c72e;
+    color:#AD8C1D;
 }
-.firstNavBlack{
-    background-color: #313131;
+#rosaNav{
+    background-color: #E5007D  !important;
 }
-.grey{
-    color:#adadad;
+.rosaList > li{
+    margin:0px 1rem;
 }
-.thirdNavPink{
+.rosaList > li:hover{
+    background-color: rgb(114,0,62);
+}
+#tresPasos{
+    background-image: url("./imagenes/imagenDetrasTresPasos.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: auto;
+}
+.tresPasosTitulo{
+    color: white;
+}
+
+.seleccion{
+    width: 100%;
+}
+
+#tresPasosFlex{
+    display: flex;
+    justify-content: space-between;
+    width: 52%;
+    margin:0 auto;
+}
+
+.noEncontrar{
+    padding: 2px 10px; 
+    background-color: #009EC9;
+    color: white;
+}
+.llamameFormulario{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+}
+
+.llamameFormulario:hover{
     background-color: #E5007D;
-    padding: 0px;
+    color: white;
+    border:none;
+    padding: 5px 15px;
 }
-.heartIcon{
+.maxComponent{
+    width:100%;
+}
+.ayudaComentario{
+    height: 6rem;
+}
+.btn{
+    border: 2px solid black;
+    width: 10rem;
+    height: 4rem;
+    margin: 5px 5px;
+}
+.compatibleBoton:hover{
+    border: 2px solid #66B2E0;
+}
+#compatibles{
+    width: 85%;
+    text-align: center;
+    margin:2rem auto;
+}
+#publicidad{
+    width:80%;
+    margin:auto;
+    justify-content: space-between;
+    display: flex;
+}
+#tituloEstrella{
+    width: 80%;
+    background-color: #009FE3;
+    color: white;
+    font-size: 1.3rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding:15px;
+}
+#productosEstrella{
+    margin:2rem 0px;
+}
+footer{
+    background-color: #505050;
     color:white;
 }
-.limiteAncho80{
-    width: 75%;
+
+.enlacesFooter > a{
+    margin:0px 1rem;
     color: white;
-    display:flex;
-    flex-direction: row;
-    margin: auto;
-    align-items: center;
-    justify-content: space-between;
+    text-decoration: none;
 }
-.imagenDentroFirstNavBlack{
-    margin-right: 0.3rem;
+
+.enlacesFooter > a:hover{
+    text-decoration: underline;
 }
-#blackFont{
-    color: black;
+
+.informacionFooter{
+    background-color: #323232;
+    padding: 5px 55px;
 }
-.limiteAltura100TerceraBarraNavegacion{
-    height: 100%;
-    padding: 1rem;
-    margin: 0px;
+#cuatroAses{
+    background-color: #F1F1F1;
+    width: 80%;
+    margin:auto;
+    display: flex;
+    color:black;
 }
-.terceraBarraDeNavegacionElementosMenosPrimero{
-    padding: 1.3rem 2.5rem;
+#cuatroAses > div{
+    display: flex;
 }
-.limiteAltura100TerceraBarraNavegacion:hover{
-    background-color: #BF0269;
+.colorGrey{
+    background-color: #F1F1F1;
 }
